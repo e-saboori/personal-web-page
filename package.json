@@ -4,6 +4,7 @@
   "description": "This is a personal web page",
   "main": "src/index.js",
   "scripts": {
+    "build": "npm run dev",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\""
