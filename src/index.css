@@ -63,25 +63,21 @@ nav {
 }
 
 .profile-img {
-  float: left;
   width: 50%;
   height: 50%;
+  margin-top: 10%;
   background-size: cover;
   border-radius: 10em 25em 10em 25em;
   box-shadow: -0.5em 1em 2em #908e8e;
 }
 
 .information {
-  align-content: center;
-  align-items: center;
-  float: right;
-  margin-top: 10%;
-  margin-right: 10%;
+  justify-content: center;
 }
 
 .information h1 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 2.5em;
   text-transform: uppercase;
   font-family: "Mitr", sans-serif;
   font-weight: 600;
@@ -96,6 +92,7 @@ nav {
   font-weight: 300;
   font-size: small;
   display: block;
+  display: none;
 }
 
 .information p span {
@@ -109,8 +106,8 @@ nav {
 }
 
 .link-icon img {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .about {
