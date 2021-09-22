@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import Close from "../asset/close.svg";
+import Close from "./asset/Close.svg";
 
 const NavigationBar = (props) => {
   return (

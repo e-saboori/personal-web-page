@@ -1,13 +1,13 @@
-import ProfilePic from "../asset/ProfilePicture.jpg";
-import LinkedinLogo from "../asset/Linkedin.svg";
-import GithubLogo from "../asset/Github.svg";
-import InstagramLogo from "../asset/Instagram.svg";
+import ProfilePic from "./asset/ProfilePicture.jpg";
+import LinkedinLogo from "./asset/Linkedin.svg";
+import GithubLogo from "./asset/Github.svg";
+import InstagramLogo from "./asset/Instagram.svg";
 
 const Welcome = () => {
   return (
     <div>
       <div className="container">
-        <img className="profile-img" src={ProfilePic} alt="Profile Picture" />
+        <img className="profile-img" src={ProfilePic} alt="Profile" />
         <section className="information">
           <h1>Elham Saboori</h1>
           <p>

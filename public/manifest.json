@@ -1,0 +1,8 @@
+{
+  "short_name": "Petit Casper",
+  "name": "This is my personal web page",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

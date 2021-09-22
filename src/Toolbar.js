@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import NavigationBar from "./NavigationBar";
-import Logo from "../asset/Logo.png";
-import Menu from "../asset/menu.svg";
+import Logo from "./asset/Logo.png";
+import Menu from "./asset/menu.svg";
 import { useState } from "react";
 
 const Toolbar = () => {
@@ -18,7 +18,7 @@ const Toolbar = () => {
         </Link>
         <img className="menu" src={Menu} alt="Menu" onClick={handelOnClick} />
 
-        {navBarvisibility == true ? (
+        {navBarvisibility === true ? (
           <NavigationBar handelOnClick={this.handelOnClick} />
         ) : null}
       </div>
