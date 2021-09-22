@@ -75,7 +75,8 @@ nav {
   align-content: center;
   align-items: center;
   float: right;
-  margin-left: 1em;
+  margin-top: 10%;
+  margin-right: 10%;
 }
 
 .information h1 {
